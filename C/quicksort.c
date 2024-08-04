@@ -21,7 +21,7 @@ int Hoare(int* array, int start, int end, int pivot){
     }
 }
 void quicksort(int* array, int start, int end){
-    if(end-start <= 1){
+    if(end-start < 1){
         return;
     }
     int pivot = array[start + ((end-start)/2)];

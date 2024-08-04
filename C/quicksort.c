@@ -1,8 +1,8 @@
 
 void swap(int* a, int* b){
-    *a ^= *b;
-    *b ^= *a;
-    *a ^= *b;
+    int temp = *a;
+    *a = *b;
+    *b = temp;
 }
 int Hoare(int* array, int start, int end, int pivot){
     int i = start;

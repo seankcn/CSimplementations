@@ -1,2 +1,2 @@
 # Simplementations
-Simple sample implementations of important CS concepts for future reference
+Simple sample implementations of concepts for future reference
